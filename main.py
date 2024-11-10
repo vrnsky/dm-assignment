@@ -83,7 +83,7 @@ def analyze_dataset(df):
     print(df[['Open', 'High', 'Low', 'Close', 'Volume']].describe())
 
     # Create visualizations
-    fig = plt.figure(figsize=(15, 12))
+    plt.figure(figsize=(15, 12))
 
     # Plot 1: Stock Price with Moving Averages
     ax1 = plt.subplot(3, 2, 1)
